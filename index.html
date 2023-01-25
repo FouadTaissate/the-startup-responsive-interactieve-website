@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./fontmontserrat.css" />
+    <link rel="stylesheet" href="./fontmartel.css" />
     <title>The Valley</title>
   </head>
   <header>
@@ -14,9 +17,11 @@
   </div>
   <body>
     <section>
-      <h4>
-        A long-term, creative partnership that turns athletes into designers
-      </h4>
+      <div class="kop">
+        <h4>
+          A long-term, creative partnership that turns athletes into designers
+        </h4>
+      </div>
       <br />
       Regardless of their level, a football player's kit is about confidence as
       much as it's about performance. From junior to professional, it's your
@@ -31,6 +36,21 @@
       them is Nike.
     </section>
     <br />
+    <section class="squares">
+      <div class="square1">
+        <h3>180</h3>
+        <p>Hi-res cameras</p>
+        <div class="paragraph">
+          <p>
+            Using a camara rig to scan each final article of clothing, from
+            shirts to socks resulting in 2Gb visual data that is highly flexible
+            in 3D space.
+          </p>
+        </div>
+      </div>
+      <div class="square2"><h3>80.123 kg</h3><p>less paper waste per year</p><div class="paragraph"><p>Not only were the paper catalogues difficult to stand out in and unwieldy to get to the client’s table, it is also quite the waste of paper.</p></div></div>
+      <div class="square3"><h3>1.942</h3><p>Kit designs shares each month</p><div class="paragraph"><p>From players to coaches, professionals to students. Everyone is creating kits to share in public or private channels, creating great exposure and conversion.</p></div>
+    </section>
     <section>
       <img src="./schermen.png" />
       With a simplified customer-facing kit experience, we skipped photography
@@ -94,7 +114,24 @@
       <img src="./white-red.png" /><br />The signature Nike style for visuals
       means the kit configurator generates striking design assets that are
       applied throughout the customer journey—in social, shop experience, order
-      confirmation and even aftercare. 
+      confirmation and even aftercare. <br />
+    </section>
+    <section>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 2</div>
+          <img src="./carousel1.png" />
+          <!-- <div class="text">Caption Text</div> -->
+        </div>
+
+        <div class="mySlides fade displayimg">
+          <div class="numbertext">2 / 2</div>
+          <img src="./carousel2.png" />
+          <!-- <div class="text">Caption Two</div> -->
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+      </div>
     </section>
   </body>
 </html>
